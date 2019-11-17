@@ -115,6 +115,6 @@ fnc_sortPlacementMarker =
 
 //TEMPORARY FIX TO DETECT SPAWN MARKERS
 {
-  _nearestMarker = [spawnPoints, getMarkerPos _x] call BIS_fnc_nearestPosition
+  _nearestMarker = [spawnPoints, getMarkerPos _x] call BIS_fnc_nearestPosition;
   server setVariable [format ["spawn_%1", _x], _nearestMarker, true];
 } forEach airportsX;
