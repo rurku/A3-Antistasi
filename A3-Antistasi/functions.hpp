@@ -293,7 +293,7 @@ class A3A
 		class taskUpdate {};
 		class underAttack {};
 	};
-	
+
 	class ModsAndDLC {
 		class getModOfConfigClass {};
 		class initDisabledMods {};
@@ -327,15 +327,16 @@ class A3A
 
 	class OrgPlayers
 	{
-		class assigntheBoss {};
 		class donateMoney {};
 		class isMember {};
 		class memberAdd {};
 		class membersList {};
 		class playerScoreAdd {};
+		class promotePlayer {};
 		class ranksMP {};
 		class resourcesPlayer {};
 		class theBossInit {};
+		class theBossloop {};
 		class theBossSteal {};
 		class tierCheck {};
 	};
